@@ -53,7 +53,7 @@ async def vip1(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 21474836500
-	uploadlimit(int(user_id),21474836500)
+	uploadlimit(int(user_id),6917183011)
 	usertype(int(user_id),"🪙 Basic")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 20 GB")
@@ -64,7 +64,7 @@ async def vip2(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit = 53687091200
-	uploadlimit(int(user_id), 53687091200)
+	uploadlimit(int(user_id), 6917183011)
 	usertype(int(user_id),"⚡ Standard")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 50 GB")
@@ -75,7 +75,7 @@ async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit = 107374182400
-	uploadlimit(int(user_id), 107374182400)
+	uploadlimit(int(user_id), 6917183011)
 	usertype(int(user_id),"💎 Pro")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 100 GB")
